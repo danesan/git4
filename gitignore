@@ -1,8 +1,8 @@
 # ------------------------------------------------------- GENERAL
-.DS_Store
-.vscode/
-.angular
-.editorconfig
+/.DS_Store
+/.vscode/
+/.angular/
+/.editorconfig
 
 # ------------------------------------------------------- FRONT-END
 # compiled output
