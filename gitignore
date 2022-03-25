@@ -1,7 +1,7 @@
 # ------------------------------------------------------- GENERAL
 .DS_Store
-.vscode
-.angulardoc.json
+.vscode/
+.angular
 .editorconfig
 
 # ------------------------------------------------------- FRONT-END
@@ -9,8 +9,6 @@
 /dist
 /tmp
 /out-tsc
-# Only exists if Bazel was run
-/bazel-out
 
 # dependencies
 /node_modules
@@ -24,22 +22,3 @@
 /.launch
 /.settings/
 /.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-.vscode/settings.json
-.vscode/tasks.json
-.vscode/launch.json
-.vscode/extensions.json
-.history/*
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-/npm-debug.log
-/yarn-error.log
-/testem.log
-/typings
-# System Files
-/front.DS_Store
-/frontThumbs.db
